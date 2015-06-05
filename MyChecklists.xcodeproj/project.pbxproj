@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		2D8D03F61AF49617000F8254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D03F51AF49617000F8254 /* main.m */; };
 		2D8D03F91AF49617000F8254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D03F81AF49617000F8254 /* AppDelegate.m */; };
-		2D8D03FC1AF49617000F8254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D03FB1AF49617000F8254 /* ViewController.m */; };
+		2D8D03FC1AF49617000F8254 /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D03FB1AF49617000F8254 /* ChecklistViewController.m */; };
 		2D8D03FF1AF49617000F8254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D03FD1AF49617000F8254 /* Main.storyboard */; };
 		2D8D04011AF49617000F8254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D04001AF49617000F8254 /* Images.xcassets */; };
 		2D8D04041AF49617000F8254 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D04021AF49617000F8254 /* LaunchScreen.xib */; };
 		2D8D04101AF49617000F8254 /* MyChecklistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D040F1AF49617000F8254 /* MyChecklistsTests.m */; };
+		2D8D041B1AF4F1BC000F8254 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D041A1AF4F1BC000F8254 /* ChecklistItem.m */; };
+		2DD920891AF8B32100259E75 /* AllListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD920881AF8B32100259E75 /* AllListsViewController.m */; };
+		2DD9208C1AF8C1A500259E75 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9208B1AF8C1A500259E75 /* Checklist.m */; };
+		2DD93EAD1AF9F38B00AD16EF /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD93EAC1AF9F38B00AD16EF /* ListDetailViewController.m */; };
+		2DD93EB01AFA5AF900AD16EF /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD93EAF1AFA5AF900AD16EF /* DataModel.m */; };
+		2DDCB13E1AF5FEA40059CEDB /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDCB13D1AF5FEA40059CEDB /* ItemDetailViewController.m */; };
+		2DE1613E1AFB999000BA60E6 /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1613D1AFB999000BA60E6 /* IconPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,28 @@
 		2D8D03F51AF49617000F8254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D8D03F71AF49617000F8254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D8D03F81AF49617000F8254 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D8D03FA1AF49617000F8254 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D8D03FB1AF49617000F8254 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D8D03FA1AF49617000F8254 /* ChecklistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChecklistViewController.h; sourceTree = "<group>"; };
+		2D8D03FB1AF49617000F8254 /* ChecklistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistViewController.m; sourceTree = "<group>"; };
 		2D8D03FE1AF49617000F8254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D8D04001AF49617000F8254 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2D8D04031AF49617000F8254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2D8D04091AF49617000F8254 /* MyChecklistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyChecklistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8D040E1AF49617000F8254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8D040F1AF49617000F8254 /* MyChecklistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyChecklistsTests.m; sourceTree = "<group>"; };
+		2D8D04191AF4F1BC000F8254 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistItem.h; sourceTree = "<group>"; };
+		2D8D041A1AF4F1BC000F8254 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistItem.m; sourceTree = "<group>"; };
+		2DD920871AF8B32100259E75 /* AllListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListsViewController.h; sourceTree = "<group>"; };
+		2DD920881AF8B32100259E75 /* AllListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListsViewController.m; sourceTree = "<group>"; };
+		2DD9208A1AF8C1A500259E75 /* Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checklist.h; sourceTree = "<group>"; };
+		2DD9208B1AF8C1A500259E75 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checklist.m; sourceTree = "<group>"; };
+		2DD93EAB1AF9F38B00AD16EF /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDetailViewController.h; sourceTree = "<group>"; };
+		2DD93EAC1AF9F38B00AD16EF /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDetailViewController.m; sourceTree = "<group>"; };
+		2DD93EAE1AFA5AF900AD16EF /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		2DD93EAF1AFA5AF900AD16EF /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		2DDCB13C1AF5FEA40059CEDB /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		2DDCB13D1AF5FEA40059CEDB /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		2DE1613C1AFB999000BA60E6 /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconPickerViewController.h; sourceTree = "<group>"; };
+		2DE1613D1AFB999000BA60E6 /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +104,26 @@
 			children = (
 				2D8D03F71AF49617000F8254 /* AppDelegate.h */,
 				2D8D03F81AF49617000F8254 /* AppDelegate.m */,
-				2D8D03FA1AF49617000F8254 /* ViewController.h */,
-				2D8D03FB1AF49617000F8254 /* ViewController.m */,
+				2D8D03FA1AF49617000F8254 /* ChecklistViewController.h */,
+				2D8D03FB1AF49617000F8254 /* ChecklistViewController.m */,
 				2D8D03FD1AF49617000F8254 /* Main.storyboard */,
 				2D8D04001AF49617000F8254 /* Images.xcassets */,
 				2D8D04021AF49617000F8254 /* LaunchScreen.xib */,
 				2D8D03F31AF49617000F8254 /* Supporting Files */,
+				2D8D04191AF4F1BC000F8254 /* ChecklistItem.h */,
+				2D8D041A1AF4F1BC000F8254 /* ChecklistItem.m */,
+				2DDCB13C1AF5FEA40059CEDB /* ItemDetailViewController.h */,
+				2DDCB13D1AF5FEA40059CEDB /* ItemDetailViewController.m */,
+				2DD920871AF8B32100259E75 /* AllListsViewController.h */,
+				2DD920881AF8B32100259E75 /* AllListsViewController.m */,
+				2DD9208A1AF8C1A500259E75 /* Checklist.h */,
+				2DD9208B1AF8C1A500259E75 /* Checklist.m */,
+				2DD93EAB1AF9F38B00AD16EF /* ListDetailViewController.h */,
+				2DD93EAC1AF9F38B00AD16EF /* ListDetailViewController.m */,
+				2DD93EAE1AFA5AF900AD16EF /* DataModel.h */,
+				2DD93EAF1AFA5AF900AD16EF /* DataModel.m */,
+				2DE1613C1AFB999000BA60E6 /* IconPickerViewController.h */,
+				2DE1613D1AFB999000BA60E6 /* IconPickerViewController.m */,
 			);
 			path = MyChecklists;
 			sourceTree = "<group>";
@@ -219,9 +254,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D8D03FC1AF49617000F8254 /* ViewController.m in Sources */,
+				2D8D03FC1AF49617000F8254 /* ChecklistViewController.m in Sources */,
+				2DE1613E1AFB999000BA60E6 /* IconPickerViewController.m in Sources */,
 				2D8D03F91AF49617000F8254 /* AppDelegate.m in Sources */,
+				2DD93EB01AFA5AF900AD16EF /* DataModel.m in Sources */,
+				2DD920891AF8B32100259E75 /* AllListsViewController.m in Sources */,
+				2DD93EAD1AF9F38B00AD16EF /* ListDetailViewController.m in Sources */,
 				2D8D03F61AF49617000F8254 /* main.m in Sources */,
+				2DDCB13E1AF5FEA40059CEDB /* ItemDetailViewController.m in Sources */,
+				2D8D041B1AF4F1BC000F8254 /* ChecklistItem.m in Sources */,
+				2DD9208C1AF8C1A500259E75 /* Checklist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				2D8D04151AF49617000F8254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D8D04161AF49617000F8254 /* Build configuration list for PBXNativeTarget "MyChecklistsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				2D8D04181AF49617000F8254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
